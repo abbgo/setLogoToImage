@@ -44,8 +44,8 @@ func main() {
 	mainHeight := mainBounds.Dy()
 
 	// Logo için yeni boyutlar belirle
-	newLogoWidth := mainWidth / 5 // Ana resmin genişliğinin 1/5'i kadar
-	newLogoHeight := newLogoWidth // Kare olarak ölçekle
+	newLogoWidth := mainWidth / 12 // Ana resmin genişliğinin 1/5'i kadar
+	newLogoHeight := newLogoWidth  // Kare olarak ölçekle
 	resizedLogo := image.NewRGBA(image.Rect(0, 0, newLogoWidth, newLogoHeight))
 
 	// Logoyu yeniden boyutlandır
